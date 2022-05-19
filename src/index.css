@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-r from-[#8E0E00] to-[#1F1C18] font-clash;
+  }
+}
+
+@font-face {
+  font-family: 'Clash';
+  src: url('../fonts/ClashGrotesk-Variable.ttf');
+}
